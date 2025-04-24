@@ -32,7 +32,7 @@ deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(
 
 #Truecaller
 #hostname = premium*.truecaller.com
-Truecaller = type=http-response,pattern=^https://premium-(.+)\.truecaller\.com/v\d/(subscriptions|products\/apple),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/veteneso/Shadowrocket-modules/refs/heads/main/truecaller.js
+Truecaller = type=http-response,pattern=^https://premium-(.+)\.truecaller\.com/v\d/(subscriptions|products\/apple),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/abhi7pika/Shadowrocket-modules/200dc47ad2bd4a41c11b1e45f45b5187d33040c6/truecaller.js
 
 [Map Local]
 ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad data-type=text data=""
