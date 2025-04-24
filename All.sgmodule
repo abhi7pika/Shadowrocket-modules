@@ -38,4 +38,4 @@ Truecaller = type=http-response,pattern=^https://premium-(.+)\.truecaller\.com/v
 ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad data-type=text data=""
 
 [MITM]
-hostname = %APPEND% *.googlevideo.com, youtubei.googleapis.com, premium*.truecaller.com, sub.store, api.revenuecat.com, spclient.wg.spotify.com, api-mobile.soundcloud.com
+hostname = premium*.truecaller.com, sub.store, api.revenuecat.com, spclient.wg.spotify.com, api-mobile.soundcloud.com
